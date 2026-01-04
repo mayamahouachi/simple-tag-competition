@@ -31,18 +31,13 @@ Cependant, dans ce contexte précis, elle conduit à une coordination plus diffi
 
 
 ## 4. Entraînement
-
 L’entraînement est réalisé contre l’agent proie de référence fourni.
-Les modèles sont entraînés sur **3000 épisodes** avec `max_cycles = 200`, conformément aux paramètres du leaderboard.
-
-Les hyperparamètres PPO ont d’abord été ajustés manuellement, puis affinés à l’aide d’**Optuna** afin d’améliorer la stabilité et les performances finales.
-
+Les hyperparamètres PPO ont d’abord été ajustés manuellement, puis affinés à l’aide d’Optuna afin d’améliorer la stabilité et les performances finales.
 
 ## 5. Résultats et choix final
 
-Avec l’approche PPO à politique partagée et buffer partagé, le score obtenu atteint 1771.4400.
+Avec l’approche PPO à politique partagée et buffer partagé, le score obtenu atteint 1771.44
 Cette approche a donc été retenue pour le rendu final car elle maximise la métrique officielle de la compétition.
-
 ## 6. Organisation du dépôt
 
 
